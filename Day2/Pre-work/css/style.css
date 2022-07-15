@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+:root {
+  --main-bg-color: #feeafa;
+  --secondary-bg-color: #8e9aaf;
+  --main-text-color: #616367;
+  --box-1: #efd3d7;
+  --box-2: #cbc0d3;
+  --form-title-color: #f3edf1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutmyself-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-bg-color);
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+  height: 45rem;
+  padding: 0 1rem 0 1rem;
+  justify-content: center;
+  border-radius: 5rem 1rem 5rem 1rem;
+}
+
+.aboutmyself-text {
+  display: flex;
+  flex-direction: row;
+  height: 15rem;
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.intro-container {
+  background-color: var(--box-1);
+  width: 70rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.additional-text {
+  margin-top: 1rem;
+}
+
+.education-hobbies-container {
+  margin-left: 2rem;
+  text-align: left;
+  background-color: var(--box-2);
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.myname {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.last-name {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+.name-letter {
+  transition: all 0.2s ease-in-out;
+}
+
+.name-letter:hover {
+  transform: scale(1.6);
+}
+
+#e:hover {
+  color: red;
+}
+#r:hover {
+  color: orange;
+}
+#i:hover {
+  color: yellow;
+}
+#c:hover {
+  color: green;
+}
+#f:hover {
+  color: blue;
+}
+#a:hover {
+  color: indigo;
+}
+#n:hover {
+  color: violet;
+}
+#g:hover {
+  color: gray;
+}
+
+.picture-of-me {
+  width: 16rem;
+  height: 21.33333rem;
+  margin-left: 4rem;
+}
+
+.form-img-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.form-container {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 10rem;
+}
+
+.index-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  color: var(--form-title-color);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  color: var(--form-title-color);
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 2rem;
+  cursor: pointer;
+  border: none;
+  background-color: var(--main-bg-color);
+}
+
+.submit-btn:hover {
+  transition-duration: 1s;
+  background-color: white;
+}
+
+.added-text {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  color: var(--form-title-color);
+  right: 40%;
+}
+
+.each-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+.img-container {
+  width: 25%;
+}

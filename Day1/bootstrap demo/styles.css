@@ -1,0 +1,43 @@
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: gray;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-lime {
+    background-color: lime;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+
+.box {
+    border: solid 14px gray;
+    border-top: solid 7px gray;
+    font-size: 1.25rem;
+}
+
+.top-row {
+    border-top: solid 14px gray;
+}
+
+.border-black {
+    border: solid 14px black;
+}
+
+.longer {
+    height: 21.3rem;
+}
