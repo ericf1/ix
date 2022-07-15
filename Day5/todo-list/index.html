@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script defer src="index.js"></script>
+    <title>Eric's To-do List</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center" >
+        <div class="card align-items-center" style="width: 35rem;">
+            <div class="card-body text-center">
+                <h3 class="card-title">Task List</h3>
+                <hr style="width: 25rem;">
+                <h5>Our Simple Todo List</h5>
+            </div>
+            <form action="">
+                 <div class="form-group d-flex flex-row">
+                    <input type="text" class="form-control" id="task-input" placeholder="Task" style="width: 20rem;">
+                    <button type="submit" id="task-submit" class="btn btn-light ml-1">+</button>
+                 </div>
+                 <div id="alert"></div>
+            </form>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="width: 20%">Task</th>
+                        <th style="width: 40%">Completed</th>
+                        <th style="width: 40%">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="task-data">
+
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
