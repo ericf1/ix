@@ -9,6 +9,11 @@
   --form-title-color: #f3edf1;
 }
 
+.car-img {
+  height: 100vh;
+  width: 100vw;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -179,7 +184,7 @@ body {
   position: absolute;
   flex-direction: column;
   color: var(--form-title-color);
-  right: 40%;
+  right: 30%;
 }
 
 .each-input-container {

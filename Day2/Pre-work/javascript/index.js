@@ -15,12 +15,16 @@ document.querySelector("#submit-btn1").addEventListener("click", (e) => {
       return;
     }
     const successClick = document.createElement("div");
+    successClick.classList.add("alert");
+    successClick.classList.add("alert-success");
     successClick.innerHTML = "Max is 5 times!";
     document.querySelector(".added-text").append(successClick);
     lastTime = true;
     return;
   }
   const successClick = document.createElement("div");
+  successClick.classList.add("alert");
+  successClick.classList.add("alert-success");
   successClick.innerHTML = `You clicked ${counter} times!`;
   document.querySelector(".added-text").append(successClick);
   counter = counter + 1;
