@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BookInput from "./components/BookInput";
 import BookTable from "./components/BookTable";
-import { Book } from "./models/book";
 
 function App() {
   const [library, setLibrary] = useState([]);
