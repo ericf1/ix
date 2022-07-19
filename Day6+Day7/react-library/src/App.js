@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="container mt-4">
       <h1>Add Book:</h1>
-      <BookInput setLibrary={setLibrary}></BookInput>
-      <BookTable setLibrary={setLibrary} library={library}></BookTable>
+      <BookInput setLibrary={setLibrary} />
+      <BookTable setLibrary={setLibrary} library={library} />
     </div>
   );
 }
