@@ -1,3 +1,11 @@
+pokemonImgElement = document.getElementById("pokemon-picture");
+pokemonNameElement = document.getElementById("pokemon-name");
+pokemonGentraElement = document.getElementById("pokemon-gentra");
+pokemonFlavorTextElement = document.getElementById("pokemon-flavor-text");
+pokemonRandomBtn = document.getElementById("random-pokemon-btn");
+
+generatePokemon();
+
 async function getPokemon(pokemonNumber) {
   url = `https://pokeapi.co/api/v2/pokemon/${pokemonNumber}`;
   const resPokemon = await fetch(url, {
@@ -42,12 +50,6 @@ function getRandomNumber() {
   return Math.floor(Math.random() * 100);
 }
 
-pokemonImgElement = document.getElementById("pokemon-picture");
-pokemonNameElement = document.getElementById("pokemon-name");
-pokemonGentraElement = document.getElementById("pokemon-gentra");
-pokemonFlavorTextElement = document.getElementById("pokemon-flavor-text");
-pokemonRandomBtn = document.getElementById("random-pokemon-btn");
-
 pokemonRandomBtn.addEventListener("click", () => {
   generatePokemon();
 });
@@ -64,5 +66,3 @@ function generatePokemon() {
     pokemonFlavorTextElement.textContent = data.flavorText;
   });
 }
-
-generatePokemon();
